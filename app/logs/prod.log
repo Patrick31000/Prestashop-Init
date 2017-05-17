@@ -1,0 +1,5 @@
+[2017-05-17 11:16:53] request.INFO: Matched route "admin_module_manage_action". {"route_parameters":{"_controller":"PrestaShopBundle\\Controller\\Admin\\ModuleController::moduleAction","action":"install","module_name":"autoupgrade","_route":"admin_module_manage_action"},"request_uri":"http://localhost:8000/admin234fvdiba/index.php/module/manage/action/install/autoupgrade?_token=Yg078uWGlmv7xD8Zh6wHKvqSaU3BBt1XwEWoeg9ZX24"} []
+[2017-05-17 11:16:53] security.DEBUG: Read existing security token from the session. {"key":"_security_main"} []
+[2017-05-17 11:16:53] security.DEBUG: User was reloaded from a user provider. {"username":"oa1uw@vmani.com","provider":"PrestaShopBundle\\Security\\Admin\\EmployeeProvider"} []
+[2017-05-17 11:17:26] app.ERROR: Exception retournée par le module autoupgrade pour install. Impossible d'extraire le module de /home/patsimplon/Documents/Simplon - Développement Web/Prestashop-Init/app/cache/prod/sandbox/591c15269c4cd/ pour obtenir son nom.  [] []
+[2017-05-17 11:17:26] security.DEBUG: Stored the security token in the session. {"key":"_security_main"} []
